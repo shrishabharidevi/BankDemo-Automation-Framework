@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BankDemo Test Suite]">
+  <listeners>
+    <listener class-name="com.bankdemo.qa.ExtentReportListener.ExtentReportListener"/>
+  </listeners>
+  <test thread-count="5" name="BankDemo Tests(failed)">
+    <classes>
+      <class name="com.bankdemo.qa.testcases.DashboardPageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyDashboardPage"/>
+          <include name="createAccount" invocation-numbers="0 1"/>
+        </methods>
+      </class> <!-- com.bankdemo.qa.testcases.DashboardPageTest -->
+    </classes>
+  </test> <!-- BankDemo Tests(failed) -->
+</suite> <!-- Failed suite [BankDemo Test Suite] -->

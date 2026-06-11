@@ -1,0 +1,14 @@
+<suite name="BankDemo Test Suite">
+
+    <listeners>
+        <listener class-name="com.bankdemo.qa.ExtentReportListener.ExtentReportListener"/>
+    </listeners>
+
+    <test name="BankDemo Tests">
+        <classes>
+            <class name="com.bankdemo.qa.testcases.LoginPageTest"/>
+            <class name="com.bankdemo.qa.testcases.DashboardPageTest"/>
+        </classes>
+    </test>
+
+</suite>
